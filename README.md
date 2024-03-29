@@ -1,9 +1,6 @@
-<h1 align="center">Useful Links</h1>
-<p align="center">
-  <em>
-    A set of useful links grouped in different categories
-  </em>
-</p>
+## Useful Links
+
+_A set of links that might be useful in fullstack development_
 
 ## Table of Contents
 
