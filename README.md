@@ -27,6 +27,7 @@ _A set of links that might be useful in fullstack development_
 ## Git
 
 - [Change the author and committer name/email for multiple commits](https://stackoverflow.com/q/750172/13690331)
+- [Managing remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 ## Xcode
 
