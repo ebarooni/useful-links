@@ -11,15 +11,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: '0'
+
 
       - name: Set git config
         run: |
-          git config user.name
-          git config user.email
-          git config --global user.email "66495214+ebarooni.noreply@barooni.dev"
-          git config --global user.name "Ehsan Barooni"
+          echo "Started"
+          echo "git version: ${{ git --version }}."
+          echo "email: ${{ git config user.email }}."
+          echo "name: ${{ git config user.name }}."
+          git config user.email "66495214+ebarooni.noreply@barooni.dev"
+          git config user.name "Ehsan Barooni"
 
       - name: Mirror to GitLab
         env:
