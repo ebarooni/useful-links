@@ -1,6 +1,10 @@
-## Useful Links
+<h1 align="center">Useful Links</h1>
 
-_A set of links that might be useful in fullstack development_
+<p align="center">
+  <em>
+    A curated list of useful links, organized by topic for quick access and ongoing updates.
+  </em>
+</p>
 
 ## Table of Contents
 
