@@ -17,9 +17,7 @@ jobs:
 
       - name: Set git config
         run: |
-          ls
-          REPO_DIR=$(basename ${GITHUB_REPOSITORY}).git
-          cd $REPO_DIR
+          cd $(basename ${GITHUB_REPOSITORY}).git
           git config user.email "66495214+ebarooni.noreply@barooni.dev"
           git config user.name "Ehsan Barooni"
 
@@ -27,9 +25,7 @@ jobs:
         env:
           GITLAB_MIRROR_TOKEN: ${{ secrets.GITLAB_MIRROR_TOKEN }}
         run: |
-          ls
-          REPO_DIR=$(basename ${GITHUB_REPOSITORY}).git
-          cd $REPO_DIR
+          cd $(basename ${GITHUB_REPOSITORY}).git
           GITLAB_REPO="https://gitlab.com/ebarooni/useful-links.git"
           git remote add gitlab https://oauth2:${GITLAB_MIRROR_TOKEN}@${GITLAB_REPO#https://}
           git push --mirror gitlab
