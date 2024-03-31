@@ -17,8 +17,6 @@ jobs:
         run: |
           echo "Started"
           git --version
-          git config user.email
-          git config user.name
           git config user.email "66495214+ebarooni.noreply@barooni.dev"
           git config user.name "Ehsan Barooni"
 
