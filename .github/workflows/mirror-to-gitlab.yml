@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-
-      - name: Set git config
         run: |
           echo "Started"
           echo "git version: ${{ git --version }}."
