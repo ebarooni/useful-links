@@ -12,6 +12,7 @@
 - [Angular](#angular)
 - [GCP](#gcp)
 - [Git](#git)
+- [NPM](#npm)
 - [Xcode](#xcode)
 
 ## Android
@@ -32,6 +33,10 @@
 
 - [Change the author and committer name/email for multiple commits](https://stackoverflow.com/q/750172/13690331)
 - [Managing remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+
+## NPM
+
+- [NPM public registry API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 
 ## Xcode
 
