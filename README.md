@@ -12,6 +12,9 @@
 - [Angular](#angular)
 - [GCP](#gcp)
 - [Git](#git)
+- [HTML](#html)
+  - [Canvas](#canvas)
+- [Linting](#linting)
 - [NPM](#npm)
 - [Xcode](#xcode)
 
@@ -33,6 +36,18 @@
 
 - [Change the author and committer name/email for multiple commits](https://stackoverflow.com/q/750172/13690331)
 - [Managing remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+
+## HTML
+
+### Canvas
+
+- [The Top 25 Three.js Webflow cloneables](https://www.flowradar.com/cloneable-categories/three-js)
+
+- [GLSL Hills](https://codepen.io/ykob/pen/aBrjaR)
+
+## Linting
+
+- [How do you handle eslint/prettier configs across multiple repos?](https://www.reddit.com/r/typescript/comments/12lyyou/how_do_you_handle_eslintprettier_configs_across)
 
 ## NPM
 
